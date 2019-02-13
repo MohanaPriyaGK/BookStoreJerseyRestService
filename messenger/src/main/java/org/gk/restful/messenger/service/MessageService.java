@@ -18,7 +18,7 @@ public class MessageService {
 			return null;
 		}
 		List<Message> messageList = new ArrayList<>();
-		MessageMap.forEach((k,v)-> messageList.add(v));
+		//MessageMap.forEach((k,v)-> messageList.add(v));
 		return messageList;
 	}
 
